@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "views/Home.js";
 import Project from "views/Project.js";
+import Sample from "views/sample.js";
 
 ReactDOM.render(
 <BrowserRouter>
@@ -22,6 +23,11 @@ ReactDOM.render(
         path="/project"
         exact
         render={props => <Project {...props} />}
+      />
+      <Route
+        path="/sample"
+        exact
+        render={props => <Sample {...props} />}
       />
       <Redirect to="/" />
     </Switch>
