@@ -1,24 +1,9 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
+import reactWhite from "assets/img/brand/argon-react-white.png";
+import whiteSlim from "assets/img/brand/creativetim-white-slim.png";
 
 class Hero extends React.Component {
   render() {
@@ -45,9 +30,9 @@ class Hero extends React.Component {
                 <Row className="align-items-center justify-content-center">
                   <Col className="text-center" lg="6">
                     <img
-                      alt="..."
+                      alt="reactWhite"
                       className="img-fluid"
-                      src={require("assets/img/brand/argon-react-white.png")}
+                      src={reactWhite}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
@@ -87,10 +72,10 @@ class Hero extends React.Component {
                         *proudly coded by
                       </small>
                       <img
-                        alt="..."
+                        alt="whiteSlim"
                         className="ml-1"
                         style={{ height: "28px" }}
-                        src={require("assets/img/brand/creativetim-white-slim.png")}
+                        src={whiteSlim}
                       />
                     </div>
                   </Col>

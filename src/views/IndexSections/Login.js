@@ -1,25 +1,10 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classnames from "classnames";
-
+import github from "assets/img/icons/common/github.svg";
+import google from "assets/img/icons/common/google.svg";
 // reactstrap components
 import {
   Button,
@@ -97,8 +82,8 @@ class Login extends React.Component {
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
-                              alt="..."
-                              src={require("assets/img/icons/common/github.svg")}
+                              alt="github"
+                              src={github}
                             />
                           </span>
                           <span className="btn-inner--text">Github</span>
@@ -111,8 +96,8 @@ class Login extends React.Component {
                         >
                           <span className="btn-inner--icon mr-1">
                             <img
-                              alt="..."
-                              src={require("assets/img/icons/common/google.svg")}
+                              alt="google"
+                              src={google}
                             />
                           </span>
                           <span className="btn-inner--text">Google</span>

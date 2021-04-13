@@ -1,23 +1,7 @@
-/*!
 
-=========================================================
-* Argon Design System React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
-
+import argonReact from "assets/img/brand/argon-react.png";
 // reactstrap components
 import {
   UncontrolledCollapse,
@@ -61,8 +45,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>
@@ -150,8 +134,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>
@@ -220,8 +204,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>
@@ -309,8 +293,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>
@@ -390,8 +374,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>
@@ -459,8 +443,8 @@ class Navbars extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
+                          alt="argonReact"
+                          src={argonReact}
                         />
                       </Link>
                     </Col>

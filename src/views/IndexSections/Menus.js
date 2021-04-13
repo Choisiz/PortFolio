@@ -17,7 +17,7 @@
 */
 import React from "react";
 import { Link } from "react-router-dom";
-
+import argonReact from "assets/img/brand/argon-react.png";
 // reactstrap components
 import {
   UncontrolledCollapse,
@@ -67,8 +67,8 @@ class Menus extends React.Component {
                           <Col className="collapse-brand" xs="6">
                             <Link to="/">
                               <img
-                                alt="..."
-                                src={require("assets/img/brand/argon-react.png")}
+                                alt="argonReact"
+                                src={argonReact}
                               />
                             </Link>
                           </Col>
@@ -156,8 +156,8 @@ class Menus extends React.Component {
                           <Col className="collapse-brand" xs="6">
                             <Link to="/">
                               <img
-                                alt="..."
-                                src={require("assets/img/brand/argon-react.png")}
+                                alt="argonReact"
+                                src={argonReact}
                               />
                             </Link>
                           </Col>
